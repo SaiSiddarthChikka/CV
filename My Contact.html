@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Siddarth Contact</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <P>Email: yourmail@gmail.com</P>
+    <p>Phone no: 012346789</p>
+    <p>Address: Hyderabad, Ramanthapur, Telangana</p>
+    <hr size="3" noshade>
+    <form action="mailto:siddarthchikka@gmail.com" method="post" enctype="text/plain">        
+        <!-- Here action specifies that after the form is being submitted then the page is redirected to the index page so the action is specified as .html -->
+        <!--In the action we can specify as mailto: that makes the form redirected to the default mailapp and the mail is sent to the specified mail address-->
+        <!--The method attribute specifies how to send form-data to the page that is specified in the action-->
+        <!--The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").-->
+        <!--method="get" is default URL(name=value&name=value)-->
+        <label>Name:</label>               <!--label is not but the text to display in the form-->
+        <input type="text" name="your name" value="" required><br>  <!--input is used in the form to give the mail id/sumit button/color-->
+        <label>Mail id:</label>
+        <input type="email" name="" value="" required><br>      <!-- type="email" only take the mailid i.e, with @ extension.-->
+        <!--<input type="color" name="" value=""><br>
+        <label>Check for Human</label>
+        <input type="checkbox" name="" value=""><br> -->
+        <label>Your message</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+    </form>
+</body>
+</html>
